@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing : Border-box;
+	/*border: 1px solid rgb(var(--LN));*/
+}
+.main{
+	background:#113f67;
+	color: white;
+	text-align: center;
+}
+body{
+	width: 80ch;
+	margin: 0 auto;
+}
+.Heading{
+	background:linear-gradient(rgba(17, 63, 103, 0.5), rgba(17, 63, 103, 0.5)), #a2a8d3;
+	
+}
+.Heading p {
+	font-size: 48px;
+}
+nav ul {
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background: #4863a0;
+}
+
+main{
+	padding-top:10px;
+	padding-bottom: 100px;
+}
+h1,h2,h3{
+	margin-top: 20px;
+	margin-bottom:20px;
+	text-align: left;
+}
+figcaption{
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+
+.dictionary {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dictionary input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.dictionary button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dictionary button:hover {
+    background-color: #45a049;
+}
+
+.dictionary #definition {
+    margin-top: 20px;
+    text-align: left;
+	font-size: 17px;
+	font-family: Times New Roman;
+}
+
+
